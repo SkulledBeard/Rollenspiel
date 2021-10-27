@@ -1,49 +1,49 @@
 - Bogenschütze
         geschlecht = männlich;
-        groesse = 50;
+        groesse = 60;
         ausdauer = 65;
         schnelligkeit = 65;
-        schlagkraft = 50;
-        ruestungssaerke = 50;
+        schlagkraft = 20;
+        ruestungssaerke = 35;
 - Dieb
         geschlecht = männlich;
-        groesse = 50;
+        groesse = 40;
         ausdauer = 85;
         schnelligkeit = 85;
-        schlagkraft = 50;
-        ruestungssaerke = 50;
+        schlagkraft = 40;
+        ruestungssaerke = 15;
 - Diebin
         geschlecht = weiblich;
-        groesse = 50;
+        groesse = 37;
         ausdauer = 80;
         schnelligkeit = 80;
-        schlagkraft = 50;
-        ruestungssaerke = 50;
+        schlagkraft = 40;
+        ruestungssaerke = 15;
 - Magier
         geschlecht = männlich;
-        groesse = 50;
-        ausdauer = 50;
-        schnelligkeit = 50;
-        schlagkraft = 50;
-        ruestungssaerke = 50;
+        groesse = 75;
+        ausdauer = 35;
+        schnelligkeit = 25;
+        schlagkraft = 32;
+        ruestungssaerke = 10;
 - Monster
         geschlecht = männlich;
         groesse = 85;
-        ausdauer = 50;
+        ausdauer = 25;
         schnelligkeit = 20;
         schlagkraft = 85;
-        ruestungssaerke = 50;
+        ruestungssaerke = 60;
 - Krieger
         geschlecht = männlich;
-        groesse = 50;
+        groesse = 65;
         ausdauer = 50;
-        schnelligkeit = 50;
+        schnelligkeit = 40;
         schlagkraft = 65;
-        ruestungssaerke = 50;
+        ruestungssaerke = 85;
 - Kriegerin
         geschlecht = weiblich;
-        groesse = 50;
+        groesse = 62;
         ausdauer = 50;
-        schnelligkeit = 50;
+        schnelligkeit = 40;
         schlagkraft = 60;
-        ruestungssaerke = 50;
+        ruestungssaerke = 80;
