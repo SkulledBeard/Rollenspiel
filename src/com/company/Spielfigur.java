@@ -16,9 +16,7 @@ public abstract class Spielfigur {
     /**
      * Kömpfen Methode zum erhöhen der Erfahrungspunkte
      */
-    public void kaempfen(int anzGegner) {
-        this.exp += (anzGegner * 2);
-    }
+    public abstract void kaempfen(int anzGegner);
 
     /**
      * Konstruktor
