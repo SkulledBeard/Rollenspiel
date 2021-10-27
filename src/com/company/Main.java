@@ -176,7 +176,7 @@ public class Main {
     }
 
     /**
-     * In dieser Methode werden die Objekte der Helden erstellt und mit den Grundwerten ausgegeben,
+     * In dieser Methode werden die Objekte der Helden mit den Grundwerten ausgegeben,
      * danach kämpfen alle Helden und benutzen Ihre Spezialfähigkeiten.
      * Dann werden die nun erhöhten Werte der Helden neu ausgegeben.
      */
