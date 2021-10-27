@@ -10,7 +10,13 @@ import java.util.Scanner;
 public class Main {
 
     public static Scanner sc = new Scanner(System.in);
-
+    static Bogenschuetze b1 = new Bogenschuetze("Bogenknilch", "männlich", 100);
+    static Dieb d1 = new Dieb("Diebknilch", "männlich");
+    static Diebin di1 = new Diebin("Diebindame");
+    static Magier m1 = new Magier("Magierknilch", "männlich");
+    static Monster mo1 = new Monster("Monsterknilch", "männlich");
+    static Krieger k1 = new Krieger("Kriegerknilch", "männlich");
+    static Kriegerin kr1 = new Kriegerin("Krigerdame");
     /**
      * Main Methode die die Arraylisten der Diebe mit Gegenständen füllt und die Methode myMenue aufruft.
      */
@@ -175,13 +181,7 @@ public class Main {
      * Dann werden die nun erhöhten Werte der Helden neu ausgegeben.
      */
     private static void myTests() {
-        Bogenschuetze b1 = new Bogenschuetze("Bogenknilch", "männlich", 100);
-        Dieb d1 = new Dieb("Diebknilch", "männlich");
-        Diebin di1 = new Diebin("Diebindame");
-        Magier m1 = new Magier("Magierknilch", "männlich");
-        Monster mo1 = new Monster("Monsterknilch", "männlich");
-        Krieger k1 = new Krieger("Kriegerknilch", "männlich");
-        Kriegerin kr1 = new Kriegerin("Krigerdame");
+
 
         System.out.println("------------------------Ausgabe vorm Kampf--------------------------\n");
 
@@ -222,5 +222,34 @@ public class Main {
         System.out.println(mo1);
         System.out.println(k1);
         System.out.println(kr1);
+
+        System.out.println("Möchten Sie zurück zum Hauptmenue?");
+        System.out.println("1) Ja (Hauptmenue)");
+        System.out.println("2) Nein (Programm beenden)");
+
+        int eingabe = sc.nextInt();
+
+        switch (eingabe) {
+            case 1 -> myMenu();
+            case 2 -> {
+                System.out.println("Möchten Sie wirklich das Spiel beenden?");
+                System.out.println("1) Ja");
+                System.out.println("2) Nein");
+
+                eingabe = sc.nextInt();
+                switch (eingabe) {
+                    case 1 -> System.exit(1);
+                    case 2 -> myMenu();
+                    default -> {
+                        System.out.println("Falsche Eingabe");
+                        myMenu();
+                    }
+                }
+            }
+            default -> {
+                System.out.println("Falsche Eingabe");
+                myMenu();
+            }
+        }
     }
 }
